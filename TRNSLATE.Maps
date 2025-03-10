@@ -1,0 +1,8 @@
+ballgelwhite = "0:255=#[255,255,255]"
+ballgelgreen = "0:255=#[198,255,198]"
+ballgelblue	 = "0:255=#[198,198,255]"
+ballgelbrown = "0:255=#[222,195,122]"
+ballgelred	 = "0:255=#[255,198,198]"
+ballgelcyan	 = "0:255=#[0,255,128]"
+ballgelarchie	 = "0:255=#[255,120,120]"
+ballgelCybie	 = "0:255=#[180,140,50]"

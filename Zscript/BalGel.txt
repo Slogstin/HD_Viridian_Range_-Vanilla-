@@ -1,0 +1,384 @@
+// Just Bogus' Ballistic Gel.
+// Also added an Archie and Ninja Pirate variation.	-Slogstin
+
+class BallisticsGelBasic : hdmobbase
+{
+	default
+	{
+		health 100;
+		height 54;
+		radius 12;
+		deathheight 12;
+		+hdmobbase.smallhead
+		+hdmobbase.biped
+		mass 10000;
+		+dontthrust;
+		+ismonster;
+		translation "ballgelwhite";
+		bloodcolor "f0 f0 f0";
+		tag "Basic ballistics gel";
+	}
+	
+	states
+	{
+		spawn:
+			TROO A -1;
+			stop;
+			
+		death:
+			TROO NOPQRST 4;
+			TROO U -1;
+			stop;
+			
+		death.massacre:
+			TROO A -1;
+			stop;
+			
+		raise:
+			TROO A 1
+			{
+				setstatelabel("spawn");
+				spawn("telefog", pos);
+				bodydamage = 0;
+			}
+	}
+}
+
+class BallisticsGelGreenArmor : hdmobbase
+{
+	default
+	{
+		health 100;
+		height 54;
+		radius 12;
+		deathheight 12;
+		+hdmobbase.smallhead
+		+hdmobbase.biped
+		mass 10000;
+		+dontthrust;
+		+ismonster;
+		translation "ballgelgreen";
+		bloodcolor "40 f0 40";
+		tag "Green armored ballistics gel";
+	}
+	
+	states
+	{
+		spawn:
+			POSS A 0 nodelay
+			{
+				a_takeinventory("hdarmourworn");
+				
+				let arw = hdarmourworn(giveinventorytype("hdarmourworn"));
+				arw.durability = HDCONST_GARRISONARMOUR;
+			}
+		
+		spawn2:
+			POSS A -1;
+			stop;
+			
+		death:
+			POSS MNOPQRST 4;
+			POSS U -1;
+			stop;
+			
+		death.massacre:
+			POSS A -1;
+			stop;
+			
+		raise:
+			POSS A 1
+			{
+				setstatelabel("spawn");
+				spawn("telefog", pos);
+				bodydamage = 0;
+			}
+	}
+}
+
+class BallisticsGelBlueArmor : hdmobbase
+{
+	default
+	{
+		health 100;
+		height 54;
+		radius 12;
+		deathheight 12;
+		+hdmobbase.smallhead
+		+hdmobbase.biped
+		mass 10000;
+		+dontthrust;
+		+ismonster;
+		translation "ballgelblue";
+		bloodcolor "40 40 f0";
+		tag "Blue armored ballistics gel";
+	}
+	
+	states
+	{
+		spawn:
+			PLAY A 0 nodelay
+			{
+				a_takeinventory("hdarmourworn");
+				
+				let arw = hdarmourworn(giveinventorytype("hdarmourworn"));
+				arw.durability = HDCONST_BATTLEARMOUR;
+				arw.mega = true;
+			}
+		
+		spawn2:
+			PLAY A -1;
+			stop;
+			
+		death:
+			PLAY OPQRSTUV 4;
+			PLAY W -1;
+			stop;
+			
+		death.massacre:
+			PLAY A -1;
+			stop;
+			
+		raise:
+			PLAY A 1
+			{
+				setstatelabel("spawn");
+				spawn("telefog", pos);
+				bodydamage = 0;
+			}
+	}
+}
+
+class BallisticsGelHellKnight : hdmobbase
+{
+	default
+	{
+		health 500;
+		hdmobbase.shields 500;
+		height 60;
+		radius 14;
+		+hdmobbase.smallhead
+		+hdmobbase.biped
+		mass 10000;
+		+dontthrust;
+		+ismonster;
+		translation "ballgelbrown";
+		bloodcolor "de c3 7a";
+		tag "Hell knight ballistics gel";
+		
+		damagefactor "Balefire",0.3;
+		damagefactor "Thermal",0.8;
+		scale 0.9;
+	}
+	
+	states
+	{
+		spawn:
+			BOS2 A -1;
+			stop;
+			
+		death:
+			BOS2 IJKLMN 4;
+			BOS2 O -1;
+			stop;
+			
+		death.massacre:
+			BOS2 A -1;
+			stop;
+			
+		raise:
+			BOS2 A 1
+			{
+				setstatelabel("spawn");
+				spawn("telefog", pos);
+				bodydamage = 0;
+			}
+	}
+}
+
+class BallisticsGelBaron : hdmobbase
+{
+	default
+	{
+		health 1000;
+		hdmobbase.shields 2000;
+		height 64;
+		radius 17;
+		+hdmobbase.smallhead
+		+hdmobbase.biped
+		mass 10000;
+		+dontthrust;
+		+ismonster;
+		translation "ballgelred";
+		bloodcolor "f0 40 40";
+		tag "Baron ballistics gel";
+		
+		damagefactor "thermal",0.8;
+		damagefactor "smallarms0",0.86;
+		damagefactor "smallarms1",0.95;
+		damagefactor "balefire",0.3;
+	}
+	
+	states
+	{
+		spawn:
+			BOSS A -1;
+			stop;
+			
+		death:
+			BOSS IJKLMN 4;
+			BOSS O -1;
+			stop;
+			
+		death.massacre:
+			BOSS A -1;
+			stop;
+			
+		raise:
+			BOSS A 1
+			{
+				setstatelabel("spawn");
+				spawn("telefog", pos);
+				bodydamage = 0;
+			}
+	}
+}
+
+class BallisticsGelCybie : hdmobbase
+{
+	default
+	{
+		health 4000;
+		hdmobbase.shields 8000;
+		height 100;
+		radius 32;
+		+hdmobbase.smallhead
+		+hdmobbase.biped
+		+hdmobbase.noshootablecorpse
+		mass 10000;
+		+dontthrust;
+		+ismonster;
+		translation "ballgelcybie";
+		bloodcolor "e6 91 38";
+		tag "Cyberdemon ballistics gel";
+		
+		damagefactor "Thermal", 0.5;
+	}
+	
+	states
+	{
+		spawn:
+			CYBR A -1;
+			stop;
+			
+		death:
+			CYBR HIJKLMNO 4;
+			CYBR P -1;
+			stop;
+			
+		death.massacre:
+			CYBR A -1;
+			stop;
+			
+		raise:
+			CYBR A 1
+			{
+				setstatelabel("spawn");
+				spawn("telefog", pos);
+				bodydamage = 0;
+			}
+	}
+}
+
+
+class BallisticsGelArchie : hdmobbase
+{
+	default
+	{
+		health 400;
+		hdmobbase.shields 1800;
+		height 56;
+		radius 16;
+		+hdmobbase.smallhead
+		+hdmobbase.biped
+		mass 10000;
+		+dontthrust;
+		+ismonster;
+		translation "ballgelArchie";
+		bloodcolor "ff 00 00";
+		tag "Archvile ballistics gel";
+		
+		damagefactor "hot",0.66;
+		scale 0.8;
+	}
+	
+	states
+	{
+		spawn:
+			VILE B -1;
+			stop;
+			
+		death:
+			VILE RSTUVWXY 4;
+			VILE Z -1;
+			stop;
+			
+		death.massacre:
+			VILE B -1;
+			stop;
+			
+		raise:
+			VILE B 1
+			{
+				setstatelabel("spawn");
+				spawn("telefog", pos);
+				bodydamage = 0;
+			}
+	}
+}
+
+
+class BallisticsGelPirate : hdmobbase
+{
+	default
+	{
+		health 200;
+		hdmobbase.shields 120;
+		height 50;
+		radius 18;
+		+hdmobbase.smallhead
+		+hdmobbase.biped
+		mass 10000;
+		+dontthrust;
+		+ismonster;
+		translation "ballgelcyan";
+		bloodcolor "00 84 0a";
+		tag "Ninja Pirate ballistics gel";
+		
+		damagefactor "Balefire",0.3;
+	}
+	
+	states
+	{
+		spawn:
+			SARG A -1;
+			stop;
+			
+		death:
+			SARG IJKLM 4;
+			SARG N -1;
+			stop;
+			
+		death.massacre:
+			SARG A -1;
+			stop;
+			
+		raise:
+			SARG A 1
+			{
+				setstatelabel("spawn");
+				spawn("telefog", pos);
+				bodydamage = 0;
+			}
+	}
+}

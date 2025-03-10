@@ -1,0 +1,94 @@
+// Empty Entries are leftovers from my personal version of this map.
+// I keep them here, to make it easier to see which numbers are still available.
+// I know i could Change the numbers so that they're all one, nice block,
+// but that's too much busy work to change them in the map.		-Slogstin
+
+doomednums
+{
+	23402 = HDHostileLandmine
+	23403 = BallisticsGelArchie
+	23404 = BallisticsGelPirate
+	23405 = HDNeutralLandmine
+	23406 = ballisticsgelbasic
+	23407 = ballisticsgelgreenarmor
+	23408 = ballisticsgelbluearmor
+	23409 = ballisticsgelhellknight
+	23410 = ballisticsgelbaron
+	23411 = ballisticsgelcybie
+	
+//	23412 = 
+//	23413 = UaS_TraumaKit
+//	23414 = UaS_EmptyStimpack
+//	23415 = UaS_EmptyMedikit
+	
+	23416 = FR2_Plush1
+	23417 = FR2_Plush2
+	23418 = FR2_Plush3
+//	23419 = 
+//	23420 = 
+	
+//	23421 = 
+//	23422 = 
+//	23423 = 
+	
+//	23424 = UaS_Ammopouch
+//	23425 = UaS_Assaultpack
+//	23426 = UaS_Respirator
+//	23427 = UaS_GyroStabilizer
+//	23428 = UaS_LaserLightModule
+	
+	23429 = HDWeaponBox
+	
+//	23430 = UaS_RandomFood
+//	23431 = UaS_RandomDrink
+	
+//	23432 = 
+//	23433 = 
+//	23434 = 
+//	23435 = 
+	23436 = AutoReloader
+//	23437 = 
+//	23438 = 
+	
+//	23439 = 
+//	23440 = 
+//	23441 = 
+//	23442 = 
+	
+//	23443 = 
+//	23444 = 
+	
+//	23445 = 
+	23446 = MrGunBot
+	23447 = FR2_Extinguisher
+	
+	23448 = FR2_Plant1
+	23449 = FR2_Plant2
+	23450 = FR2_Plant3
+	23451 = FR2_Chair
+	23452 = FR2_Box
+	23453 = FR2_Football
+	
+//	23454 = 
+//	23455 = 
+//	23456 = 
+	23457 = FR2_Trashcan
+}
+
+
+episode range2
+{
+name = "Viridian Firing Range"
+}
+
+map range2 "Virid Inc. Firing Range"{
+	sky1="sky1"
+	music="rangebgm"
+	resetinventory
+	nointermission
+	noautosavehint
+	allowrespawn
+	secretnext="range2"
+	next="Map01"
+	
+}

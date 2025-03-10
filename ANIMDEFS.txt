@@ -1,0 +1,1 @@
+cameratexture VRDCAM1 336 336 fit 112 112
