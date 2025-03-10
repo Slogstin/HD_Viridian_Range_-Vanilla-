@@ -1,6 +1,8 @@
 # Description
 This Addon adds a completely new Firing Range to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor). 
 
+A version for use with [Ugky as Sin](https://github.com/caligari87/Ugly-as-Sin) can be found [here](https://github.com/Slogstin/HD_Viridian_Range_-UaS-)!
+
 The new Range does not replace the old one and both are acessible at all times!
 
 
