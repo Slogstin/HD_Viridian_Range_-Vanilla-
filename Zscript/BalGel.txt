@@ -1,7 +1,7 @@
 // Just Bogus' Ballistic Gel.
 // Also added an Archie and Ninja Pirate variation.	-Slogstin
 
-class BallisticsGelBasic : hdmobbase
+class BallisticsGelBasicV : hdmobbase
 {
 	default
 	{
@@ -44,7 +44,7 @@ class BallisticsGelBasic : hdmobbase
 	}
 }
 
-class BallisticsGelGreenArmor : hdmobbase
+class BallisticsGelGreenArmorV : hdmobbase
 {
 	default
 	{
@@ -96,7 +96,7 @@ class BallisticsGelGreenArmor : hdmobbase
 	}
 }
 
-class BallisticsGelBlueArmor : hdmobbase
+class BallisticsGelBlueArmorV : hdmobbase
 {
 	default
 	{
@@ -149,7 +149,7 @@ class BallisticsGelBlueArmor : hdmobbase
 	}
 }
 
-class BallisticsGelHellKnight : hdmobbase
+class BallisticsGelHellKnightV : hdmobbase
 {
 	default
 	{
@@ -196,7 +196,7 @@ class BallisticsGelHellKnight : hdmobbase
 	}
 }
 
-class BallisticsGelBaron : hdmobbase
+class BallisticsGelBaronV : hdmobbase
 {
 	default
 	{
@@ -244,7 +244,7 @@ class BallisticsGelBaron : hdmobbase
 	}
 }
 
-class BallisticsGelCybie : hdmobbase
+class BallisticsGelCybieV : hdmobbase
 {
 	default
 	{
@@ -291,7 +291,7 @@ class BallisticsGelCybie : hdmobbase
 }
 
 
-class BallisticsGelArchie : hdmobbase
+class BallisticsGelArchieV : hdmobbase
 {
 	default
 	{
@@ -338,7 +338,7 @@ class BallisticsGelArchie : hdmobbase
 }
 
 
-class BallisticsGelPirate : hdmobbase
+class BallisticsGelPirateV : hdmobbase
 {
 	default
 	{
