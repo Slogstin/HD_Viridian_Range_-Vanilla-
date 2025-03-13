@@ -6,15 +6,15 @@
 doomednums
 {
 	23402 = HDHostileLandmine
-	23403 = BallisticsGelArchie
-	23404 = BallisticsGelPirate
+	23403 = BallisticsGelArchieV
+	23404 = BallisticsGelPirateV
 	23405 = HDNeutralLandmine
-	23406 = ballisticsgelbasic
-	23407 = ballisticsgelgreenarmor
-	23408 = ballisticsgelbluearmor
-	23409 = ballisticsgelhellknight
-	23410 = ballisticsgelbaron
-	23411 = ballisticsgelcybie
+	23406 = ballisticsgelbasicV
+	23407 = ballisticsgelgreenarmorV
+	23408 = ballisticsgelbluearmorV
+	23409 = ballisticsgelhellknightV
+	23410 = ballisticsgelbaronV
+	23411 = ballisticsgelcybieV
 	
 //	23412 = 
 //	23413 = UaS_TraumaKit
