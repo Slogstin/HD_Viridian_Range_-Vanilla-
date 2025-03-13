@@ -33,16 +33,6 @@ Sprite "LNDMC0", 14, 6
 ///// Firing Range /////
 ////////////////////////
 
-//Imp Target
-texture TRGIMP, 128, 64
-{
-   patch STONE2, 0, 0
-   {
-      translation desaturate, 31
-   }
-   patch TRO2A1, 42, 64 {}
-}
-
 //Range Target 1
 texture TRGRT1, 64, 128
 {
