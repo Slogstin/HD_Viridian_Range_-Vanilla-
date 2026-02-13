@@ -179,6 +179,32 @@ class FR2_Plant3:FR2_Plant1{
 	}
 }
 
+class FR2_MessDecPot:FR2_Plant1{
+	default {
+	-solid;
+	mass 3000;
+	scale 1;
+	}
+	
+	states{
+	spawn:
+		VRDC A -1;
+	}
+}
+
+class FR2_MessDecMug:FR2_Plant1{
+	default {
+	-solid;
+	mass 3000;
+	scale 1;
+	}
+	
+	states{
+	spawn:
+		VRDC B -1;
+	}
+}
+
 class FR2_Box:HDActor{
 	default {
 	height 15;
@@ -246,6 +272,35 @@ class FR2_Extinguisher:HDActor{
 class MrGunBot:ScriptedMarine
 {
 	default{
+	mass 5000;
+	translation "GunBot";
+	+Invulnerable;
+	-SHOOTABLE}
+}
+
+class Jenny:ScriptedMarine
+{
+	default{
+	mass 5000;
+	translation "Jenny";
+	+Invulnerable;
+	-SHOOTABLE}
+}
+
+class WarHog:ScriptedMarine
+{
+	default{
+	mass 5000;
+	translation "WarHog";
+	+Invulnerable;
+	-SHOOTABLE}
+}
+
+class HailStorm:ScriptedMarine
+{
+	default{
+	mass 5000;
+	translation "HailStorm";
 	+Invulnerable;
 	-SHOOTABLE}
 }
@@ -262,7 +317,7 @@ class FR2_Plush1:HDActor{
 	
 	states{
 	spawn:
-		RXPL A -1;
+		OCPL B -1;
 	}
 }
 
@@ -277,7 +332,7 @@ class FR2_Plush2:HDActor{
 	
 	states{
 	spawn:
-		CTPL A -1;
+		OCPL A -1;
 	}
 }
 
@@ -292,6 +347,21 @@ class FR2_Plush3:HDActor{
 	
 	states{
 	spawn:
-		IKPL A -1;
+		OCPL C -1;
+	}
+}
+
+class FR2_Plush4:HDActor{
+	default {
+	height 15;
+	radius 7;
+	mass 50;
+//	scale 0.5;
+//	+solid;
+	}
+	
+	states{
+	spawn:
+		OCPL D -1;
 	}
 }

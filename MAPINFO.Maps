@@ -24,10 +24,10 @@ doomednums
 	23416 = FR2_Plush1
 	23417 = FR2_Plush2
 	23418 = FR2_Plush3
-//	23419 = 
+	23419 = FR2_Plush4
 //	23420 = 
 	
-//	23421 = 
+//	23421 = TheTreasureOfEvil		--- From: Archie's Magnificent And Mysterious Maze
 //	23422 = 
 //	23423 = 
 	
@@ -55,10 +55,10 @@ doomednums
 //	23441 = 
 //	23442 = 
 	
-//	23443 = 
-//	23444 = 
+	23443 = HailStorm
+	23444 = WarHog
 	
-//	23445 = 
+	23445 = Jenny 
 	23446 = MrGunBot
 	23447 = FR2_Extinguisher
 	
@@ -70,8 +70,8 @@ doomednums
 	23453 = FR2_Football
 	
 //	23454 = 
-//	23455 = 
-//	23456 = 
+	23455 = FR2_MessDecPot
+	23456 = FR2_MessDecMug
 	23457 = FR2_Trashcan
 }
 

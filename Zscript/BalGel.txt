@@ -13,7 +13,7 @@ class BallisticsGelBasicV : hdmobbase
 		+hdmobbase.biped
 		mass 10000;
 		+dontthrust;
-		+ismonster;
+		+friendly;
 		translation "ballgelwhite";
 		bloodcolor "f0 f0 f0";
 		tag "Basic ballistics gel";
@@ -56,7 +56,7 @@ class BallisticsGelGreenArmorV : hdmobbase
 		+hdmobbase.biped
 		mass 10000;
 		+dontthrust;
-		+ismonster;
+		+friendly;
 		translation "ballgelgreen";
 		bloodcolor "40 f0 40";
 		tag "Green armored ballistics gel";
@@ -108,7 +108,7 @@ class BallisticsGelBlueArmorV : hdmobbase
 		+hdmobbase.biped
 		mass 10000;
 		+dontthrust;
-		+ismonster;
+		+friendly;
 		translation "ballgelblue";
 		bloodcolor "40 40 f0";
 		tag "Blue armored ballistics gel";
@@ -161,7 +161,7 @@ class BallisticsGelHellKnightV : hdmobbase
 		+hdmobbase.biped
 		mass 10000;
 		+dontthrust;
-		+ismonster;
+		+friendly;
 		translation "ballgelbrown";
 		bloodcolor "de c3 7a";
 		tag "Hell knight ballistics gel";
@@ -208,7 +208,7 @@ class BallisticsGelBaronV : hdmobbase
 		+hdmobbase.biped
 		mass 10000;
 		+dontthrust;
-		+ismonster;
+		+friendly;
 		translation "ballgelred";
 		bloodcolor "f0 40 40";
 		tag "Baron ballistics gel";
@@ -257,7 +257,7 @@ class BallisticsGelCybieV : hdmobbase
 		+hdmobbase.noshootablecorpse
 		mass 10000;
 		+dontthrust;
-		+ismonster;
+		+friendly;
 		translation "ballgelcybie";
 		bloodcolor "e6 91 38";
 		tag "Cyberdemon ballistics gel";
@@ -296,19 +296,19 @@ class BallisticsGelArchieV : hdmobbase
 	default
 	{
 		health 400;
-		hdmobbase.shields 1800;
+		hdmobbase.shields 666;
 		height 56;
 		radius 16;
 		+hdmobbase.smallhead
 		+hdmobbase.biped
 		mass 10000;
 		+dontthrust;
-		+ismonster;
+		+friendly;
 		translation "ballgelArchie";
 		bloodcolor "ff 00 00";
 		tag "Archvile ballistics gel";
 		
-		damagefactor "hot",0.66;
+		damagefactor "hot",0.666;
 		scale 0.8;
 	}
 	
@@ -350,7 +350,7 @@ class BallisticsGelPirateV : hdmobbase
 		+hdmobbase.biped
 		mass 10000;
 		+dontthrust;
-		+ismonster;
+		+friendly;
 		translation "ballgelcyan";
 		bloodcolor "00 84 0a";
 		tag "Ninja Pirate ballistics gel";
