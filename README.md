@@ -1,7 +1,7 @@
 # Description
 This Addon adds a completely new Firing Range to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor). 
 
-A version for use with [Ugky as Sin](https://github.com/caligari87/Ugly-as-Sin) can be found [here](https://github.com/Slogstin/HD_Viridian_Range_-UaS-)!
+A version for use with [Ugly as Sin](https://github.com/caligari87/Ugly-as-Sin) can be found [here](https://github.com/Slogstin/HD_Viridian_Range_-UaS-)!
 
 The new Range does not replace the old one and both are acessible at all times!
 
@@ -16,6 +16,10 @@ Accensus for the Weapon Crate code that i repurposed for the Weapon Boxes.
 SgtMarkIV for some VietDoom textures.
 
 Effingham Huffnagel for the Barbed Wire texture.
+
+Greneric Firedemon for the graffiti
+
+lambda_m from the HD discord for some poster designs
 
 And everyone who worked on the texture packs: Aquatex, nb_silv and rfhelltx.
 
