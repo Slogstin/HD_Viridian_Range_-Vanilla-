@@ -16,10 +16,10 @@ doomednums
 	23410 = ballisticsgelbaronV
 	23411 = ballisticsgelcybieV
 	
-//	23412 = 
-//	23413 = UaS_TraumaKit
-//	23414 = UaS_EmptyStimpack
-//	23415 = UaS_EmptyMedikit
+//	23412 = VirElevatorKey			--- From: Storm Chasers
+//	23413 = UaS_TraumaKit			--- From: Viridian Firing Range (UaS)
+//	23414 = UaS_EmptyStimpack		--- From: Viridian Firing Range (UaS)
+//	23415 = UaS_EmptyMedikit		--- From: Viridian Firing Range (UaS)
 	
 	23416 = FR2_Plush1
 	23417 = FR2_Plush2
@@ -31,16 +31,16 @@ doomednums
 //	23422 = 
 //	23423 = 
 	
-//	23424 = UaS_Ammopouch
-//	23425 = UaS_Assaultpack
-//	23426 = UaS_Respirator
-//	23427 = UaS_GyroStabilizer
-//	23428 = UaS_LaserLightModule
+//	23424 = UaS_Ammopouch			--- From: Viridian Firing Range (UaS)
+//	23425 = UaS_Assaultpack			--- From: Viridian Firing Range (UaS)
+//	23426 = UaS_Respirator			--- From: Viridian Firing Range (UaS)
+//	23427 = UaS_GyroStabilizer		--- From: Viridian Firing Range (UaS)
+//	23428 = UaS_LaserLightModule	--- From: Viridian Firing Range (UaS)
 	
 	23429 = HDWeaponBox
 	
-//	23430 = UaS_RandomFood
-//	23431 = UaS_RandomDrink
+//	23430 = UaS_RandomFood			--- From: Viridian Firing Range (UaS)
+//	23431 = UaS_RandomDrink			--- From: Viridian Firing Range (UaS)
 	
 //	23432 = 
 //	23433 = 
@@ -82,7 +82,7 @@ name = "Viridian Firing Range"
 }
 
 map range2 "Virid Inc. Firing Range"{
-	sky1="sky1"
+	sky1="SNST_SKY"
 	music="rangebgm"
 	resetinventory
 	nointermission
