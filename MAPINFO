@@ -1,0 +1,94 @@
+// Empty Entries are leftovers from my personal version of this map.
+// I keep them here, to make it easier to see which numbers are still available.
+// I know i could Change the numbers so that they're all one, nice block,
+// but that's too much busy work to change them in the map.		-Slogstin
+
+doomednums
+{
+	23402 = HDHostileLandmine
+	23403 = BallisticsGelArchieV
+	23404 = BallisticsGelPirateV
+	23405 = HDNeutralLandmine
+	23406 = ballisticsgelbasicV
+	23407 = ballisticsgelgreenarmorV
+	23408 = ballisticsgelbluearmorV
+	23409 = ballisticsgelhellknightV
+	23410 = ballisticsgelbaronV
+	23411 = ballisticsgelcybieV
+	
+//	23412 = VirElevatorKey			--- From: Storm Chasers
+//	23413 = UaS_TraumaKit			--- From: Viridian Firing Range (UaS)
+//	23414 = UaS_EmptyStimpack		--- From: Viridian Firing Range (UaS)
+//	23415 = UaS_EmptyMedikit		--- From: Viridian Firing Range (UaS)
+	
+	23416 = FR2_Plush1
+	23417 = FR2_Plush2
+	23418 = FR2_Plush3
+	23419 = FR2_Plush4
+//	23420 = 
+	
+//	23421 = TheTreasureOfEvil		--- From: Archie's Magnificent And Mysterious Maze
+//	23422 = 
+//	23423 = 
+	
+//	23424 = UaS_Ammopouch			--- From: Viridian Firing Range (UaS)
+//	23425 = UaS_Assaultpack			--- From: Viridian Firing Range (UaS)
+//	23426 = UaS_Respirator			--- From: Viridian Firing Range (UaS)
+//	23427 = UaS_GyroStabilizer		--- From: Viridian Firing Range (UaS)
+//	23428 = UaS_LaserLightModule	--- From: Viridian Firing Range (UaS)
+	
+	23429 = HDWeaponBox
+	
+//	23430 = UaS_RandomFood			--- From: Viridian Firing Range (UaS)
+//	23431 = UaS_RandomDrink			--- From: Viridian Firing Range (UaS)
+	
+//	23432 = 
+//	23433 = 
+//	23434 = 
+//	23435 = 
+	23436 = AutoReloader
+//	23437 = 
+//	23438 = 
+	
+//	23439 = 
+//	23440 = 
+//	23441 = 
+//	23442 = 
+	
+	23443 = HailStorm
+	23444 = WarHog
+	
+	23445 = Jenny 
+	23446 = MrGunBot
+	23447 = FR2_Extinguisher
+	
+	23448 = FR2_Plant1
+	23449 = FR2_Plant2
+	23450 = FR2_Plant3
+	23451 = FR2_Chair
+	23452 = FR2_Box
+	23453 = FR2_Football
+	
+//	23454 = 
+	23455 = FR2_MessDecPot
+	23456 = FR2_MessDecMug
+	23457 = FR2_Trashcan
+}
+
+
+episode range2
+{
+name = "Viridian Firing Range"
+}
+
+map range2 "Virid Inc. Firing Range"{
+	sky1="SNST_SKY"
+	music="rangebgm"
+	resetinventory
+	nointermission
+	noautosavehint
+	allowrespawn
+	secretnext="range2"
+	next="Map01"
+	
+}

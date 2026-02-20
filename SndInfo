@@ -1,0 +1,9 @@
+//Football
+$random Ball/Bounce{BBounce1 BBounce2 BBounce3 BBounce4}
+BBounce1	"sounds/Football/BLLBNCE1.ogg"
+BBounce2	"sounds/Football/BLLBNCE2.ogg"
+BBounce3	"sounds/Football/BLLBNCE3.ogg"
+BBounce4	"sounds/Football/BLLBNCE4.ogg"
+
+//Landmines
+MineTrigger		"Sounds/MineTr1"
