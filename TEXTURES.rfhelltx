@@ -4081,25 +4081,25 @@ WallTexture "SKULWALL", 128, 128
 	Patch "WALL79_1", 124, 0
 }
 
-WallTexture "SKY1", 256, 128
-{
-	Patch "RSKY1", 0, 0
-}
+//WallTexture "SKY1", 256, 128
+//{
+//	Patch "RSKY1", 0, 0
+//}
 
-WallTexture "SKY2", 256, 128
-{
-	Patch "RSKY2", 0, 0
-}
+//WallTexture "SKY2", 256, 128
+//{
+//	Patch "RSKY2", 0, 0
+//}
 
-WallTexture "SKY3", 256, 128
-{
-	Patch "RSKY3", 0, 0
-}
+//WallTexture "SKY3", 256, 128
+//{
+//	Patch "RSKY3", 0, 0
+//}
 
-WallTexture "SKY4", 256, 128
-{
-	Patch "SKY4", 0, 0
-}
+//WallTexture "SKY4", 256, 128
+//{
+//	Patch "SKY4", 0, 0
+//}
 
 WallTexture "SKY5", 256, 128
 {
