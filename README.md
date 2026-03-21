@@ -21,7 +21,13 @@ Greneric Firedemon for the graffiti
 
 lambda_m from the HD discord for some poster designs
 
-And everyone who worked on the texture packs: Aquatex, nb_silv and rfhelltx.
+Nightmare for the 5th Episode Texture Pack & the Silver Texture Pack
+
+Cage for Cage's Texture Pack Vol 1&2
+
+JMickle66666666 / Jazz Mickle for the Aquatex Texture pack
+
+rf` for the rfhelltx Texture pack
 
 
 # Lore
